@@ -301,6 +301,10 @@ h1{
     padding:0% 5% 0%;
     
 }
+
+.fifth-last-container{
+    display: flex;
+}
 .orange{
     display: inline-block;
     width:30%;
@@ -309,16 +313,21 @@ h1{
     display: inline-block;
     width:30%;
 }
-
+.fourth-last-container{
+    display: flex;
+}
+.fourth-last-container div{
+    padding: 3%;
+}
 .before-4{
     display: inline-flex;
     width:30%;    
     margin: none;
-    align-self: flex-start;
+   align-self: flex-start;
     
 }
  #right-wala{
-     align-self: flex-start;
+     align-self: flex-end
  }
 .mid-4{
     width:30%;
@@ -328,21 +337,60 @@ h1{
 .after-4{
     width:30%;
     display: inline-block;
+    align-self: center;
+    justify-self: flex-start;
 }
 
 .third-last-container{
     display: flex;
+    justify-content: center;
 }
 
 .third-last-container div{
     margin: 2%;
 }
-.flex-column{
-   
-   flex-wrap: wrap;
-   
+
+.second-last-container div{
+    display: flex;
+    text-align: left;
 }
 
+.second-last-container img{
+    display: block;
+    width:30%;
+    margin-left:5%;
+}
+
+.second-last-container div div{
+    display: block;
+    width:100%;
+    padding: 2%;
+}
+
+.last-container{
+    display: flex;
+}
+
+#last-img{
+    width:40%;
+    margin-left:0;
+    order:2;
+}
+
+#footer-links{
+    display: flex;
+
+}
+#footer-links div{
+    width: 20%;
+}
+
+.flex-column{
+    width: 100%;
+}
+#footer-links .flex-column div{
+    width: 100%;
+}
 form label{
     display:block;
 }

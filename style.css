@@ -1,8 +1,16 @@
 body{
     background-color: #f3eae5;
     font-family: "Helvetica Neue",Arial,sans-serif;
-    word-spacing: 1px;
+    text-align: center;
+    
 }
+
+h1, h2, h3, h4{
+    font-family: "Mabry Pro",Arial,sans-serif;
+    font-weight: 400;
+}
+
+
 
 
 .logo{
@@ -28,6 +36,7 @@ header div:hover{
 .top-container img{
     width: 90%;
 }
+
 .top-container div{
     background-color: rgb(255, 126, 133);    
     padding: 2% 3% 2%;
@@ -84,7 +93,7 @@ header div:hover{
 }
 
 .fourth-last-container .before-4{
-    display:flex;
+    display:inline - flex;
     flex-direction: column;
     text-align: left;
     
@@ -225,6 +234,109 @@ header div{
     
 }
 
+h1{
+    font-size: 4.5rem;
+}
+
+
+.top-container .top-text-div{
+    width: 40%;
+    height:fit-content;
+    display: inline-block;
+    background-color:inherit;
+    margin-bottom: 0%;
+    position: absolute;
+    right:50%;
+    bottom:-25%;       
+}
+
+.top-container{
+    text-align:right;
+}
+.top-container img{
+     width:50%;
+     display: inline-block;
+     
+}
+.top-container div{
+    margin-bottom: 0%;
+
+}
+.seventh-last-container img{
+    width:30%;
+    height: 30%;
+    padding:4%;
+}
+
+.seventh-last-container  {       
+    padding: 5%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+    
+.sixth-last-container {
+    margin: auto;  
+    display:flex;
+    width:70%;
+    flex-direction: row;
+    
+}
+.nav-bar{
+    width:200%;
+}
+
+#before-6-text{
+    padding: 3%;
+}
+.sixth-last-container {
+    display:flex;
+    width:100%;
+    flex-direction: row;    
+    
+}
+.sixth-last-container div {
+    padding:0% 5% 0%;
+    
+}
+.orange{
+    display: inline-block;
+    width:30%;
+}
+.green{
+    display: inline-block;
+    width:30%;
+}
+
+.before-4{
+    display: inline-flex;
+    width:30%;    
+    margin: none;
+    align-self: flex-start;
+    
+}
+ #right-wala{
+     align-self: flex-start;
+ }
+.mid-4{
+    width:30%;
+    display: inline-block;
+}
+
+.after-4{
+    width:30%;
+    display: inline-block;
+}
+
+.third-last-container{
+    display: flex;
+}
+
+.third-last-container div{
+    margin: 2%;
+}
 .flex-column{
    
    flex-wrap: wrap;

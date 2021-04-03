@@ -11,19 +11,31 @@ h1, h2, h3, h4{
 }
 
 
-
+header{
+    background-color: #171c5d;
+    color: white;
+}
 
 .logo{
     display:inline-block;
     height:5%;
     width: 5%;
-    margin-left: 30%;
+    margin-left: 25%;
        
 }
 header div:hover{    
     color:#864000;
 }
 
+.header-left{
+    width:30%;
+    display: inline-block;
+    text-align: left;
+}
+.nav-bar{
+    display: inline-block;
+    width: 50%;
+}
 
 .border{
     border-style: solid;
@@ -31,6 +43,8 @@ header div:hover{
     border-radius: 5px;
     padding: 0.75% 2% 0.75%;
     margin-right: 10%;
+    background: #f6c8f1;
+    color:#171c5d
 }
 
 .top-container img{
@@ -38,14 +52,16 @@ header div:hover{
 }
 
 .top-container div{
-    background-color: rgb(255, 126, 133);    
+     
     padding: 2% 3% 2%;
     border-radius: 4px;
-    margin: 2% auto 50%;
+    margin: 2% auto 2%;
     text-align: center;
 
 }
-
+#get-started{
+    background-color: rgb(255, 126, 133);   
+}
 .top-container{
     padding: 4% auto 4%;
     background-color: #171c5d;
@@ -165,22 +181,37 @@ header div:hover{
 
 .last-container{
     width:90%;
-    background-color: #f7ea00;
+    background-color: #ffd02d;
     border-radius: 10px;
     text-align: center;
     margin:auto;
-    padding:5% 4% 5%;
-    
-    
+    padding:5% 4% 5%;    
+    color: #ff7399;    
 }
+
 form input{
     width:100%;
     text-align: center;
-    padding:1%;
+    padding:3%;
+    border-radius: 5px;
+    border-style: none;
+    background: rgba(62,60,67,.2);
+    margin:3% 0 2%;
+}
+.white-text{
+    color:white;
 }
 form label{
     display:none;
 }
+
+#submit{
+    background-color: white;
+    color: #ff7399;
+    
+}
+
+
 .monkey2{
     width:90%;
     height:60%;
@@ -229,7 +260,7 @@ header div{
     height: max-content;
     width:fit-content;
     padding: 2% 1% 2% 1%;
-    margin: 0 auto 0 auto;
+    
     font-size: 20px;
     
 }
@@ -239,33 +270,40 @@ h1{
 }
 
 
-.top-container .top-text-div{
-    width: 40%;
-    height:fit-content;
-    display: inline-block;
-    background-color:inherit;
-    margin-bottom: 0%;
-    position: absolute;
-    right:50%;
-    bottom:-25%;       
-}
+
 
 .top-container{
     text-align:right;
+    display: flex;
+    
+    height: fit-content;
+    margin: 0;
+}
+.top-container #get-started{
+    width: 40%;    
+    margin: 0;
+    align-self: left;
+    margin-left: 9%;
+}
+
+.top-container-up{
+    display: flex;
+    flex-direction: column;
 }
 .top-container img{
-     width:50%;
-     display: inline-block;
+     width:40%;
+     height: 40%;
+     order:2;
      
 }
-.top-container div{
-    margin-bottom: 0%;
-
+.top-text-div{
+    background-color:#171c5d;
 }
+
 .seventh-last-container img{
-    width:30%;
-    height: 30%;
-    padding:4%;
+    width:40%;
+    height: 40%;
+    padding:10%;
 }
 
 .seventh-last-container  {       
@@ -284,12 +322,11 @@ h1{
     flex-direction: row;
     
 }
-.nav-bar{
-    width:200%;
-}
+
 
 #before-6-text{
     padding: 3%;
+    width: 50%;
 }
 .sixth-last-container {
     display:flex;
@@ -344,6 +381,7 @@ h1{
 .third-last-container{
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .third-last-container div{
@@ -355,6 +393,9 @@ h1{
     text-align: left;
 }
 
+.second-last-container{
+    padding:5%;
+}
 .second-last-container img{
     display: block;
     width:30%;
@@ -376,7 +417,9 @@ h1{
     margin-left:0;
     order:2;
 }
-
+footer img{
+    padding:2% 0 1% ;
+}
 #footer-links{
     display: flex;
 
@@ -393,5 +436,20 @@ h1{
 }
 form label{
     display:block;
+}
+form input{
+    width:60%;
+    text-align: center;
+    padding:3%;
+    border-radius: 5px;
+    border-style: none;
+    background: rgba(62,60,67,.2);
+    margin:3% 0 2%;
+}
+
+#submit{
+    background-color: white;
+    color: #ff7399;
+    width:30%;
 }
 }

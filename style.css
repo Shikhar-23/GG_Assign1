@@ -122,24 +122,27 @@ header div div:hover{
     border-radius: 5px;
     margin:10px auto 10px;
 }
+.fifth-last-container{
+    margin: auto;
+}
 .fifth-last-container div{
     text-align: center;
-    padding:6%;
+    padding-top:2%;
     margin: 5% 2% 5%;
     border-radius: 5%; 
+    
 }
-.fifth-last-container div img{
-    width: 80%;
-    padding:3%;
-    display: block;
-    margin: auto;
 
-}
 
 .orange{
     background-color: rgb(255, 178, 131);
+    
 }
-
+.orange img{
+    width: 90%;
+    position: relative;
+    bottom:0px;
+}
 .green{
     background-color: #206871;
 }
@@ -331,7 +334,7 @@ h1{
     width: 40%;    
     margin: 0;
     align-self: left;
-    margin-left: 9%;
+    margin-left: 26%;
 }
 
 .top-container-up{
@@ -349,18 +352,21 @@ h1{
 }
 
 .seventh-last-container img{
-    width:40%;
-    height: 40%;
-    padding:10%;
+    width: 40%;
+    height:40%;
 }
 
-.seventh-last-container  {       
-    padding: 5%;
+.seventh-last-container  {     
     margin: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
+    margin: 4%;
+    flex-wrap: wrap;   
+}
+
+.seventh-last-container div{
+    width: 50%
 }
     
 .sixth-last-container {
@@ -392,7 +398,7 @@ h1{
 }
 .orange{
     display: inline-block;
-    width:30%;
+    width:50%;
 }
 .green{
     display: inline-block;

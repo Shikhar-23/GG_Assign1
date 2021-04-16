@@ -15,11 +15,11 @@ h1, h2, h3, h4{
     font-weight: 400;
 }
 h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h2{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 h3{
     font-size: 1.5rem;
@@ -142,17 +142,19 @@ header div div:hover{
 }
 .sixth-last-container{
     padding: 0 1vw 0 ;
+    width: 90%;
+    margin: auto;
 }
 #before-6-text{
     display: block;
     width: 90%;
+    margin: 20px auto 15px;
     padding: 0 2vw 0;
     
     
 }
 .measure-bar{
-
-    width: 100%;
+    width: 90%;
     background:linear-gradient(to right, green 30%, white 30% 70%);
     height:10px;
     border-radius: 5px;
@@ -208,7 +210,7 @@ header div div:hover{
     border: 2px solid white;
     border-radius: 4px;
     padding:4% 6% 4%;
-    margin:4% 20% 4%;
+    margin:4% 5% 4%;
     width: fit-content 
 }
 
@@ -258,8 +260,9 @@ header div div:hover{
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    
+    width: 90%;
     padding:15% 0 15%;
+    margin: auto;
 }
 
 .second-last-container img{
@@ -273,7 +276,7 @@ header div div:hover{
 
     z-index: 5;
     position: relative;
-    width:90%;
+    width:80%;
     background-color: #ffd02d;
     border-radius: 10px;   
     margin:auto auto -7%;
@@ -323,7 +326,7 @@ footer{
     display:inline-flex;
     flex-direction: column;
     justify-content:flex-start;        
-   
+    width: 40vw;
     padding: 3% 0 3%;
 }
 
@@ -345,6 +348,7 @@ footer{
     width: 10%;
     height: 10%;    
     display: inline-block;
+    margin-left: 45vw;;
     
 
 }
@@ -416,7 +420,7 @@ h1{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 4%;
+    margin: 6.5%;
     flex-wrap: wrap;   
 }
 
@@ -463,9 +467,11 @@ h1{
 }
 .fourth-last-container{
     display: flex;
+    
+    padding: 5vw 5vw 0;
 }
 .fourth-last-container div{
-    padding: 3%;
+    padding-right: 2%;
 }
 .before-4{
     display: inline-flex;
@@ -509,19 +515,19 @@ h1{
 }
 .second-last-container img{
     display: block;
-    width:30%;
-    margin-left:5%;
+    width:20%;
+    margin-left: 0;
 }
 
 .second-last-container div div{
     display: block;
     width:100%;
-    padding: 2%;
+    padding: 2% 1% 2%;
 }
 
 .last-container{
     display: flex;
-    width: 70%;
+    width: 80%;
 }
 
 #last-img{
